@@ -1,1 +1,54 @@
-sdfasdfasdfsdf
+# VeteranVantage Automation LLC - Company Website
+
+Welcome to the official repository of the **VeteranVantage Automation LLC** website. This site is designed to showcase our cutting-edge automation solutions, including PLC integration, SCADA systems, and OPC server technologies, aimed at enhancing industrial operations for businesses.
+
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Overview
+
+VeteranVantage Automation LLC is a veteran-owned business providing industrial automation solutions tailored to meet the needs of manufacturing, production, and service industries. Our website offers interactive tools that simulate data acquisition and automation systems, enabling customers to explore how they can integrate and leverage these systems in their operations.
+
+### Key Features:
+- **Interactive PLC Demo**: Allows customers to simulate real-time data from different PLC brands (e.g., Siemens, Allen-Bradley).
+- **SCADA System Simulation**: Simulates SCADA software interaction with various industrial devices.
+- **User-Friendly Interface**: Simplifies the complex process of automation systems selection and configuration.
+- **Contact and Support**: Information on how to reach us for consultations and product inquiries.
+
+## Features
+
+- **PLC Selection**: Customers can select different PLC brands (e.g., Siemens, Allen-Bradley).
+- **Data Acquisition Servers**: Choose from different server configurations (OPC UA, Ethernet, etc.).
+- **Interactive Demo**: Provides a demo environment where users can interact with simulated data.
+- **24/7 Remote Support**: Access technical support for troubleshooting and setup help.
+
+## Tech Stack
+
+- **Node.js 20** - Backend server environment
+- **Express.js** - Web framework for building the backend API
+- **HTML/CSS/JS** - For building the user interface and frontend interactions
+- **Azure** - Cloud platform for hosting the website
+- **GitHub Actions** - For continuous integration and deployment
+- **Raspberry Pi** - Used for testing and simulating OPC servers and SCADA systems
+
+## Installation
+
+To get started with the development of this website, clone the repository and follow the instructions below:
+
+### Prerequisites:
+- **Node.js** (Version 20 or higher)
+- **npm** (Node Package Manager)
+- **Git** (for version control)
+
+### 1. Clone the Repository:
+```bash
+git clone https://github.com/yourusername/veteranvantage-website.git
+cd veteranvantage-website
