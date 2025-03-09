@@ -4,6 +4,7 @@ const app = express();
 // Serve ASCII art and contact info on the root path
 app.get('/', (req, res) => {
   res.send(`
+  <pre>
 VVVVVVVV           VVVVVVVVVVVVVVVV           VVVVVVVV   AAA                    LLLLLLLLLLL             LLLLLLLLLLL                    CCCCCCCCCCCCC     
 V::::::V           V::::::VV::::::V           V::::::V  A:::A                   L:::::::::L             L:::::::::L                 CCC::::::::::::C     
 V::::::V           V::::::VV::::::V           V::::::V A:::::A                  L:::::::::L             L:::::::::L               CC:::::::::::::::C     
@@ -23,6 +24,10 @@ V::::::V           V::::::VV::::::V           V::::::VA:::::::A                 
 
 Veteran Vantage Automation LLC. website & product in development - services available! 
 contact - James Derek Cooper at derek@vva.solutions or 513-667-7370
+</pre>
+<p>
+  ASCII art available! - web design as well (live example): https://www.smoke-n-bourbon.com
+</p>
   `);
 });
 
