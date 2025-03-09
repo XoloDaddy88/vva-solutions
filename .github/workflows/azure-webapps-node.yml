@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_WEBAPP_NAME: "vva-solutions"  # Replace with your Azure Web App name
+  AZURE_WEBAPP_NAME: "vva-solutions"  # Must match your Azure Web App name exactly
   AZURE_WEBAPP_PACKAGE_PATH: "."      # Path to your web app project
   NODE_VERSION: "20.x"                # Node version to use
 
@@ -30,11 +30,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # This step will only run a build script if it's defined in package.json
+      # This step will only run if you have a "build" script in package.json
       - name: Build (optional)
         run: npm run build --if-present
 
-      # This step will only run a test script if it's defined in package.json
+      # This step will only run if you have a "test" script in package.json
       - name: Test (optional)
         run: npm test --if-present
 
@@ -43,7 +43,7 @@ jobs:
         with:
           name: node-app
           path: .
-  
+
   deploy:
     runs-on: ubuntu-latest
     needs: build
