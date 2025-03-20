@@ -26,7 +26,7 @@ Veteran Vantage Automation LLC. website & product in development - services avai
 contact - James Derek Cooper at derek@vva.solutions or 513-667-7370
 </pre>
 <p>
-  ASCII art available! - web design as well (live example): https://www.smoke-n-bourbon.com
+Web Design available (live example): https://www.smoke-n-bourbon.com
 </p>
   `);
 });
